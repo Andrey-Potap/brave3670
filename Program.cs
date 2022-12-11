@@ -41,3 +41,36 @@ while (number > 0 && number < 8)
     else Console.WriteLine("Это рабочий день");
 }
 Console.WriteLine("Укажите значение между 1 и 7");*/
+
+// Homework C# Lesson 3 Task 19
+/*Console.Write("Введите число: ");
+string number = Convert.ToString(Console.ReadLine());
+if (number[0] == number[4] && number[1] == number[3])
+{
+    Console.WriteLine("Да");
+}
+else Console.WriteLine("Нет");*/
+
+// Homework C# Lesson 3 Task 21
+/*Console.Write("Введите координату x1: ");
+int x1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите координату x2: ");
+int x2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите координату y1: ");
+int y1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите координату y2: ");
+int y2 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите координату z1: ");
+int z1 = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите координату z2: ");
+int z2 = Convert.ToInt32(Console.ReadLine());
+double distance = Math.Sqrt(Math.Pow(x2 - x1, 2) + Math.Pow(y2 - y1, 2) + Math.Pow(z2 - z1, 2));
+Console.WriteLine($"Расстояние между 2 точками в 3-D пространстве: {x1},{y1}, {x2},{y2}, {z1},{z2} = {Math.Round(distance, 2)}");*/
+
+// Homework C# Lesson 3 Task 23
+/*Console.Write("Введите число N: ");
+int finish = Convert.ToInt32(Console.ReadLine());
+for (int start = 1; start <= finish; start++)
+{
+    Console.Write(Math.Pow(start, 3) + " ");
+}*/
